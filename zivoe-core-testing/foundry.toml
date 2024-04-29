@@ -4,6 +4,10 @@ evm_version = "shanghai"
 src = 'src'
 out = 'out'
 libs = ['lib']
+remappings = [
+  'forge-std/=lib/forge-std/src/',
+  '@chimera/=lib/chimera/src/'
+]
 
 [profile.fuzz]
 max_test_rejects = 100000

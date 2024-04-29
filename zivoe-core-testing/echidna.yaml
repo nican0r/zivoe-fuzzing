@@ -1,0 +1,22 @@
+
+testMode: "assertion"
+prefix: "invariant_"
+coverage: true
+corpusDir: "echidna"
+balanceAddr: 0x1043561a8829300000
+balanceContract: 0x1043561a8829300000
+stopOnFail: false
+filterBlacklist: false 
+filterFunctions: [
+  "CryticTester.zivoeITO_claimAirdrop(uint256)", 
+  "CryticTester.zivoeITO_commence()",
+  "CryticTester.zivoeITO_depositBoth(uint256,uint256,uint256,uint256,uint256)",
+  "CryticTester.zivoeITO_depositJunior(uint256,uint256,uint256)",
+  "CryticTester.zivoeITO_depositSenior(uint256,uint256,uint256)",
+  "CryticTester.zivoeITO_migrateDeposits()"
+]
+# cryticArgs: ["--foundry-compile-all", “--skip-clean”] #to skip rebuilding 
+cryticArgs: ["--foundry-compile-all"] #don't skip rebuilding
+# trying with this to see if it doesn't force recompiling every time
+# doesn't work
+# cryticArgs: ["--compile-force-framework", "foundry"]

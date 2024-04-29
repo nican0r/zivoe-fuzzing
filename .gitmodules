@@ -10,3 +10,9 @@
 [submodule "zivoe-core-testing/lib/zivoe-core-foundry"]
 	path = zivoe-core-testing/lib/zivoe-core-foundry
 	url = https://github.com/Zivoe/zivoe-core-foundry
+[submodule "lib/chimera"]
+	path = lib/chimera
+	url = https://github.com/Recon-Fuzz/chimera
+[submodule "zivoe-core-testing/lib/chimera"]
+	path = zivoe-core-testing/lib/chimera
+	url = https://github.com/Recon-Fuzz/chimera

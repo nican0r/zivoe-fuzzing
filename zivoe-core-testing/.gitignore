@@ -1,0 +1,7 @@
+.env
+
+out/
+crytic-export/
+.vs-code/
+echidna/
+cache/
